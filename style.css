@@ -1,0 +1,41 @@
+body { background-color: #e0ffff;
+	   /* background-color property specifies the background colour of an element */
+       font-family: "Open Sans", sans-serif;
+       font-size: 16px;
+       /* use the "Merriweather" font for headings, and "Open Sans" for text */ 
+       }
+
+/* Header code- 100 years of BTA */
+.container {
+  position: relative;
+  font-family: Open Sans;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 250px;
+  right: 490px;
+  background-color: rgba(0,0,0,.5);
+  color: white;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Setting Heading sizes and fonts */
+h1 {
+  font-family: Merriweather, serif;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: Merriweather, serif;
+  font-size: 30px;
+}
+  
+
+/* Setting up an ID style to call back on */
+#title {
+  text-align: center;
+  color: #616F6D;
+}
